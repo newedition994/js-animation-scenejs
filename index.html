@@ -60,6 +60,37 @@
           selector: true
         }
       ).playCSS();
+
+      var scene2 = new Scene(
+        {
+          "#cta": {
+            0: {
+              transform: {
+                scale: 1
+              }
+            },
+            0.3: {
+              transform: {
+                scale: 3
+              }
+            },
+            0.5: {
+              transform: {
+                scale: 1
+              }
+            }
+          }
+        },
+        {
+          easing: Scene.EASE_IN_OUT,
+          fillMode: "forwards",
+          selector: true
+        }
+      );
+
+      cta.addEventListener("click", () => {
+        scene2.playCSS();
+      });
     </script>
   </body>
 </html>
