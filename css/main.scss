@@ -15,4 +15,18 @@ body {
   width: 50%;
   padding: 1em;
   border-radius: 10px;
+  height: 5%;
+
+  h1,
+  img,
+  .price {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .price {
+    float: right;
+    font-size: 1.7em;
+    color: #008bf5;
+  }
 }
