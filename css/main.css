@@ -39,6 +39,10 @@ body {
   width: 28px;
 }
 
+.container .info {
+  display: none;
+}
+
 .item {
   margin: 2em 0;
   display: -ms-grid;
