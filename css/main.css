@@ -52,4 +52,13 @@ body {
   color: #008bf5;
   font-size: 1.3em;
 }
+
+.item .subprice {
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.item .description p {
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */
