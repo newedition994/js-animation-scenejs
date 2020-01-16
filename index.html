@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <h1>My Cart</h1>
-      <img src="images/expand.png" alt="Expand Cart" />
+      <img src="images/expand.jpg" alt="Expand Cart" id="cta" />
       <p class="price">$455</p>
 
       <div class="info">
@@ -40,6 +40,7 @@
     <script src="//daybrush.com/scenejs/release/latest/dist/scene.min.js"></script>
 
     <script>
+      var cta = document.getElementById("cta");
       var scene = new Scene(
         {
           ".container": [
