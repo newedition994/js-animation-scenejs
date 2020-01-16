@@ -79,11 +79,30 @@
                 scale: 1
               }
             }
+          },
+          ".container": {
+            0.4: {
+              transform: "scale(1)",
+              height: "5%",
+              opacity: 1
+            },
+            0.7: {
+              height: "60%",
+              opacity: 1
+            }
+          },
+          ".info": {
+            0.7: {
+              display: "block",
+              opacity: "0"
+            },
+            1.5: {
+              opacity: "1"
+            }
           }
         },
         {
           easing: Scene.EASE_IN_OUT,
-          fillMode: "forwards",
           selector: true
         }
       );
