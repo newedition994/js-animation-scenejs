@@ -32,4 +32,24 @@ body {
   font-size: 1.7em;
   color: #008bf5;
 }
+
+.container img {
+  cursor: pointer;
+  margin-left: 10px;
+  width: 28px;
+}
+
+.item {
+  margin: 2em 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% auto;
+      grid-template-columns: 75% auto;
+}
+
+.item a {
+  text-decoration: none;
+  color: #008bf5;
+  font-size: 1.3em;
+}
 /*# sourceMappingURL=main.css.map */

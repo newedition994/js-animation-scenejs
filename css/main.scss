@@ -29,4 +29,26 @@ body {
     font-size: 1.7em;
     color: #008bf5;
   }
+
+  img {
+    cursor: pointer;
+    margin-left: 10px;
+    width: 28px;
+  }
+
+  .info {
+    // display: none;
+  }
+}
+
+.item {
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: 75% auto;
+
+  a {
+    text-decoration: none;
+    color: #008bf5;
+    font-size: 1.3em;
+  }
 }
