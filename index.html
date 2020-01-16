@@ -99,6 +99,19 @@
             1.5: {
               opacity: "1"
             }
+          },
+          ".item": function(i) {
+            return {
+              0: {
+                opacity: "0"
+              },
+              0.5: {
+                opacity: "1"
+              },
+              options: {
+                delay: i * 0.5
+              }
+            };
           }
         },
         {
