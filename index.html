@@ -121,7 +121,13 @@
       );
 
       cta.addEventListener("click", () => {
-        scene2.playCSS();
+        if (scene2.getDirection() === "normal") {
+          scene2.playCSS();
+          scene2.setDirection("reverse");
+        } else {
+          scene2.playCSS();
+          scene2.setDirection("normal");
+        }
       });
     </script>
   </body>
